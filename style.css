@@ -1,0 +1,56 @@
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+    background-color: #f6f6f6; /* Light background for contrast */  
+}  
+
+header {  
+    background-color: #4CAF50; /* Dark green header */  
+    color: white;  
+    text-align: center;  
+    padding: 20px 0;  
+}  
+
+h1 {  
+    margin: 0;  
+}  
+
+main {  
+    padding: 20px;  
+}  
+
+.intro, .openings {  
+    background-color: white;  
+    margin: 20px auto;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+h2 {  
+    color: #4CAF50; /* Green for headings */  
+}  
+
+ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+li {  
+    margin: 10px 0;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 20px 0;  
+    background-color: #4CAF50;  
+    color: white;  
+    position: relative;  
+}  
+
+@media (min-width: 600px) {  
+    body {  
+        background-image: url('chessboard.png'); /* You can replace this with your chessboard image */  
+        background-size: cover;  
+    }  
+}
